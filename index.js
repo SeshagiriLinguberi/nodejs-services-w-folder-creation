@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParse = require('body-parser');
 const cors = require('cors');
-require('./configuration/dbconfig.js')
+require('./config/dbconfig.js')
 const port=8080;
 
 const api = require('./routers/api.routers');
